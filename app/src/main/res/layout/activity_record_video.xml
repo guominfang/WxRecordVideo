@@ -6,11 +6,9 @@
                 tools:context=".RecordVideoActivity">
 
     <FrameLayout
-        android:id="@+id/content"
+        android:id="@+id/fragment_content"
         android:layout_width="match_parent"
-        android:background="@android:color/black"
         android:layout_height="match_parent"/>
-
 
     <RelativeLayout
         android:id="@+id/record_layout"
