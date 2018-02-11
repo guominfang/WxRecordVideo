@@ -13,8 +13,8 @@
 
 
 ## 考虑添加功能
-### 录制方式（Camera2 + TextureView + MediaRecorder）
-### 播放方式（TextureView + MediaPlayer）
+1. 录制方式（Camera2 + TextureView + MediaRecorder）
+2. 播放方式（TextureView + MediaPlayer）
 
 
 #### 参考
