@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="120dp"
+                android:layout_height="120dp">
+
+    <com.kwok.recordvideo.widget.RecordVideoProgressBar
+        android:id="@+id/RecordVideoProgressBar"
+        android:layout_width="@dimen/record_btn"
+        android:layout_height="@dimen/record_btn"
+        android:layout_centerInParent="true"
+        app:maxProgress="60"/>
+
+    <TextView
+        android:id="@+id/circle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_oval_white"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+</RelativeLayout>

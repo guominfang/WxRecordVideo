@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RecordVideoProgressBar">
+        <attr name="maxProgress" format="string"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="backColor" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+    </declare-styleable>
+</resources>
